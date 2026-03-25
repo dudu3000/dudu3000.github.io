@@ -1,0 +1,19 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <h1><a href="/">Curat<span>Stralucitor</span></a></h1>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="/" class="nav-link <% if (!title || title === 'Home') { %>active<% } %>">Acasă</a></li>
+            <li><a href="/services" class="nav-link <% if (title === 'Servicii & Prețuri') { %>active<% } %>">Servicii</a></li>
+            <li><a href="/about" class="nav-link <% if (title === 'Despre Noi') { %>active<% } %>">Despre</a></li>
+            <li><a href="/gallery" class="nav-link <% if (title === 'Galerie') { %>active<% } %>">Galerie</a></li>
+            <li><a href="/contact" class="nav-link nav-btn <% if (title === 'Contactați-ne') { %>active<% } %>">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
